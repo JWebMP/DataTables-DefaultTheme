@@ -17,7 +17,7 @@
 package com.jwebmp.plugins.datatable.dt;
 
 import com.jwebmp.core.*;
-import com.jwebmp.core.base.angular.services.annotations.*;
+import com.jwebmp.core.base.angular.client.annotations.typescript.*;
 import com.jwebmp.core.plugins.*;
 import com.jwebmp.core.services.*;
 import jakarta.validation.constraints.*;
@@ -54,7 +54,7 @@ import jakarta.validation.constraints.*;
                    pluginStatus = PluginStatus.Released
 )
 
-@TsDependency(value = "datatables.net-dt",version = "*")
+@TsDependency(value = "datatables.net-dt", version = "*")
 @TsDependency(value = "datatables.net-autofill-dt",version = "*")
 @TsDependency(value = "datatables.net-buttons-dt",version = "*")
 @TsDependency(value = "datatables.net-colreorder-dt",version = "*")
